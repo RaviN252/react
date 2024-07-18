@@ -1,0 +1,15 @@
+#con{
+    background-color: black;
+    display: flex;
+    color: azure;
+    width: 100%;
+}
+#condata{
+    padding: 5%;
+    padding-left: 10%;
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    
+}
