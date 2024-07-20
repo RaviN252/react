@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // import App from "./App";
 import reportWebVitals from "./reportWebVitals";
@@ -11,11 +11,17 @@ import reportWebVitals from "./reportWebVitals";
 // import Gallery from "./Gallery";
 // import Navigate from "./nav";
 
-import Data from "./object";
-
-import Arr from "./Array";
-
-import Arrofobj from "./Arrofobj";
+//these all for practice concepts
+// import Data from "./object";
+// import Arr from "./Array";
+// import Arrofobj from "./Arrofobj";
+//import Table from "./map";
+//import First from "./CompFirst";
+//import Second from "./CompSecond";
+//import PromFun from "./PromFun";
+//import PromCls from "./PromCls";
+import PrsFirst from "./PrsFirst";
+import PrsSecond from "./PrsSecond";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -33,8 +39,15 @@ root.render(
       </Routes>
     </BrowserRouter> */}
     {/* <Data /> */}
-    <Arr />
-    <Arrofobj />
+    {/* <Arr /> */}
+    {/* <Arrofobj /> */}
+    {/* <Table /> */}
+    {/* <First /> */}
+    {/* <Second /> */}
+    {/* <PromFun /> */}
+    {/* <PromCls /> */}
+    <PrsFirst />
+    <PrsSecond />
   </>
 );
 

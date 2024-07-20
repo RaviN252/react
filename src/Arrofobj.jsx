@@ -31,9 +31,21 @@ function Arrofobj() {
   return (
     <>
       <h1>{data[0].Name}</h1>
+      <h1>{data[0].Dob}</h1>
+      <h1>{data[0].Age}</h1>
+      <h1>{data[0].email}</h1>
       <h1>{data[1].Name}</h1>
+      <h1>{data[1].Dob}</h1>
+      <h1>{data[1].Age}</h1>
+      <h1>{data[1].email}</h1>
       <h1>{data[2].Name}</h1>
+      <h1>{data[2].Dob}</h1>
+      <h1>{data[2].Age}</h1>
+      <h1>{data[2].email}</h1>
       <h1>{data[3].Name}</h1>
+      <h1>{data[3].Dob}</h1>
+      <h1>{data[3].Age}</h1>
+      <h1>{data[3].email}</h1>
     </>
   );
 }
