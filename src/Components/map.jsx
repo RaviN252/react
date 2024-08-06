@@ -7,7 +7,7 @@ function Map() {
       Name: "Ravi N",
       Age: 23,
       Email: "ravin7n10@gmail.com",
-      Address: "Lingrajpura",
+      Address: "Banglore",
     },
     {
       Name: "Ram",
@@ -25,7 +25,31 @@ function Map() {
       Name: "Likith",
       Age: 21,
       Email: "liki@gmail.com",
-      Address: "BSK 2 Stage ",
+      Address: "Banglore",
+    },
+    {
+      Name: "Sudha",
+      Age: 21,
+      Email: "sudha@gmail.com",
+      Address: "BTM 1Stage ",
+    },
+    {
+      Name: "rossy",
+      Age: 21,
+      Email: "liki@gmail.com",
+      Address: "Banglore",
+    },
+    {
+      Name: "SudhaPS",
+      Age: 21,
+      Email: "sudha@gmail.com",
+      Address: "BTM 1Stage ",
+    },
+    {
+      Name: "Abi",
+      Age: 21,
+      Email: "liki@gmail.com",
+      Address: "Banglore",
     },
   ]);
 
@@ -41,22 +65,18 @@ function Map() {
           </tr>
         </thead>
         <tbody>
-            {
-              data.map(e=>{
-                 return(
-                  <>
-                  <tr>
-            <td>{e.Name}</td>
-            <td>{e.Email}</td>
-            <td>{e.Age}</td>
-            <td>{e.Address}</td>
-            
-            
-            </tr>
-                  </>
-                 )
-              })
-            }
+          {data.map((e) => {
+            return (
+              <>
+                <tr>
+                  <td>{e.Name}</td>
+                  <td>{e.Email}</td>
+                  <td>{e.Age}</td>
+                  <td>{e.Address}</td>
+                </tr>
+              </>
+            );
+          })}
         </tbody>
       </table>
     </>

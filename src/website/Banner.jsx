@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "./images/music.png";
+import image1 from "../images/music.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMusic } from "@fortawesome/free-solid-svg-icons";
 import "./Banner.css";

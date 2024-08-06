@@ -5,12 +5,13 @@ class PrsSecond extends React.Component {
     super();
   }
   render() {
-    const { data } = this.props;
+    let { data } = this.props;
     return (
       <>
         <h1>PrsSecond Starts Here</h1>
         <h1>{data.usname}</h1>
         <h1>{data.uage}</h1>
+        <h1>{data.usemail}</h1>
       </>
     );
   }

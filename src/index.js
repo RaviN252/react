@@ -1,27 +1,42 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
-
-// import App from "./App";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
-// import Bann from "./Banner";
-// import Home from "./Home";
-// import About from "./About";
-// import Contact from "./Contact";
-// import Gallery from "./Gallery";
-// import Navigate from "./nav";
+import Bann from "./website/Banner";
+import Home from "./website/Home";
+import About from "./website/About";
+import Contact from "./website/Contact";
+import Gallery from "./website/Gallery";
+import Navigate from "./website/nav";
 
 //these all for practice concepts
-// import Data from "./object";
-// import Arr from "./Array";
-// import Arrofobj from "./Arrofobj";
-//import Table from "./map";
-//import First from "./CompFirst";
-//import Second from "./CompSecond";
-//import PromFun from "./PromFun";
-//import PromCls from "./PromCls";
-import PrsFirst from "./PrsFirst";
-import PrsSecond from "./PrsSecond";
+// import Data from "./Components/object";
+// import Arr from "./Components/Array";
+// import Arrofobj from "./Components/Arrofobj";
+import Table from "./Components/map";
+import Filter from "./Components/filter";
+//import First from "./Components/CompFirst";
+//import Second from "./Components/CompSecond";
+// import PromFun from "./Components/PromFun";
+// import PromCls from "./Components/PromCls";
+// import PrsFirst from "./Components/PrsFirst";
+// import PrsSecond from "./Components/PrsSecond";
+// import Prom2fun from "./Components/Prom2fun";
+// import Prom2cls from "./Components/Prom2cls";
+import Share1 from "./Components/share1";
+import Share2 from "./Components/share2";
+
+import Share3 from "./Components/Share3";
+import CCLCMF1 from "./Components/CCLCM1";
+import CCLCMCDM from "./Components/CCLCMCDM";
+import CCLCMUPD from "./Components/CCLCMUPD";
+
+// functional Components
+import UseEffect from "./Funccomp/UseEffect";
+import Dependency from "./Funccomp/UseEffectwd";
+import HomeUseState from "./Funccomp/UseState";
+import Assignmnet from "./Funccomp/UseEffectAss";
+import HomeUseRef from "./Funccomp/UseRef";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -42,12 +57,31 @@ root.render(
     {/* <Arr /> */}
     {/* <Arrofobj /> */}
     {/* <Table /> */}
+    {/* <Filter /> */}
     {/* <First /> */}
     {/* <Second /> */}
-    {/* <PromFun /> */}
-    {/* <PromCls /> */}
-    <PrsFirst />
-    <PrsSecond />
+
+    {/* <PromFun />
+    <Prom2fun /> */}
+
+    {/* <PromCls />
+    <Prom2cls /> */}
+
+    {/* <PrsFirst /> */}
+    {/* <PrsSecond /> */}
+    {/* <Share1 />
+    <Share2 /> */}
+    {/* <Share3 /> */}
+    {/* <CCLCMF1 /> */}
+    {/* <CCLCMCDM /> */}
+    {/* <CCLCMUPD /> */}
+
+    {/* <HomeUseState /> */}
+    {/* <UseEffect /> */}
+    {/* <Dependency /> */}
+    {/* <Assignmnet /> */}
+
+    <HomeUseRef />
   </>
 );
 
