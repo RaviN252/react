@@ -37,6 +37,9 @@ import Dependency from "./Funccomp/UseEffectwd";
 import HomeUseState from "./Funccomp/UseState";
 import Assignmnet from "./Funccomp/UseEffectAss";
 import HomeUseRef from "./Funccomp/UseRef";
+import Color from "./Funccomp/UseRefAsgn";
+import Homes from "./Navigation/navigaotr";
+import Abouts from "./Navigation/Abouts";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -81,7 +84,15 @@ root.render(
     {/* <Dependency /> */}
     {/* <Assignmnet /> */}
 
-    <HomeUseRef />
+    {/* <HomeUseRef /> */}
+    {/* <Color /> */}
+
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Homes />}></Route>
+        <Route path="/Abouts" element={<Abouts />}></Route>
+      </Routes>
+    </BrowserRouter>
   </>
 );
 
