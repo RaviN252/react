@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 function Dependency() {
   let [data, setData] = useState(5);
   let [value, setValue] = useState(0);
+
+  // this will be running based on dependency as the data chnages it will change
   useEffect(() => {
     console.log("dependency Array");
     alert("rendered");

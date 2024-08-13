@@ -12,9 +12,7 @@ function About() {
   }
   return (
     <>
-      
       <h1 style={textColor}>UseState</h1>
-
       <button onClick={ChangeColor}>Change Color</button>
     </>
   );

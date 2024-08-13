@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 function Abouts() {
   const nav = useNavigate();
-  //   const [data, setData] = useState("Ravi N");
+
   const location = useLocation();
   console.log(location.state);
   function back() {

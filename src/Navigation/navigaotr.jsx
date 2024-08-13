@@ -25,6 +25,12 @@ function Homes() {
           insted of link tag we can use the function to redidrect the page for
           navigation
         </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos impedit
+          hic eius nemo facilis facere sapiente iure illo esse, magnam
+          blanditiis mollitia sed veniam. Dolores nemo nisi dolor assumenda
+          aperiam?
+        </p>
         <button onClick={Navback}> back to About</button>
       </nav>
     </>

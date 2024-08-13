@@ -40,6 +40,12 @@ import HomeUseRef from "./Funccomp/UseRef";
 import Color from "./Funccomp/UseRefAsgn";
 import Homes from "./Navigation/navigaotr";
 import Abouts from "./Navigation/Abouts";
+import AssHome from "./Navigation/AssHome";
+import AssAbout from "./Navigation/AssAbout";
+import GetFetch from "./API/GetFetch";
+import GetAxios from "./API/GetAxios";
+import PostFetch from "./API/PostFetch";
+import PostAxios from "./API/PostAxios";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -78,8 +84,8 @@ root.render(
     {/* <CCLCMF1 /> */}
     {/* <CCLCMCDM /> */}
     {/* <CCLCMUPD /> */}
-
-    {/* <HomeUseState /> */}
+    {/* 
+    <HomeUseState /> */}
     {/* <UseEffect /> */}
     {/* <Dependency /> */}
     {/* <Assignmnet /> */}
@@ -87,12 +93,26 @@ root.render(
     {/* <HomeUseRef /> */}
     {/* <Color /> */}
 
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homes />}></Route>
         <Route path="/Abouts" element={<Abouts />}></Route>
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
+
+    {/* Assignmnet */}
+    {/* <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<AssHome />}></Route>
+        <Route path="/AssAbout" element={<AssAbout />}></Route>
+      </Routes>
+    </BrowserRouter> */}
+
+    {/* api concepts */}
+    {/* <GetFetch />
+    <GetAxios /> */}
+    {/* <PostFetch /> */}
+    {/* <PostAxios /> */}
   </>
 );
 
