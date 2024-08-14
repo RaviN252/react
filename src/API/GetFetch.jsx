@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "./GetFetch.css";
 
 function GetFetch() {
   const [responsedata, setResponseData] = useState([]);

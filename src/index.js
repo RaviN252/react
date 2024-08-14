@@ -46,6 +46,11 @@ import GetFetch from "./API/GetFetch";
 import GetAxios from "./API/GetAxios";
 import PostFetch from "./API/PostFetch";
 import PostAxios from "./API/PostAxios";
+import Slider from "./slider/slider";
+import UpdateFetch from "./API/UpdateFetch";
+import UpdateAxios from "./API/UpdateAxios";
+import DeleteFetch from "./API/DeleteFetch";
+import DeleteAxios from "./API/DeleteAxios";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -113,6 +118,12 @@ root.render(
     <GetAxios /> */}
     {/* <PostFetch /> */}
     {/* <PostAxios /> */}
+
+    {/* <Slider /> */}
+    {/* <UpdateFetch /> */}
+    {/* <UpdateAxios /> */}
+    <DeleteFetch />
+    {/* <DeleteAxios /> */}
   </>
 );
 
