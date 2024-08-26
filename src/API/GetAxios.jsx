@@ -13,6 +13,8 @@ function GetAxios() {
       .catch((err) => console.log(err));
   }, []);
 
+  let filterArr = resdata.filter((e) => e.id <= "20");
+
   return (
     <>
       <h1>GET AXIOS</h1>
@@ -27,7 +29,7 @@ function GetAxios() {
           </tr>
         </thead>
         <tbody>
-          {resdata.map((e) => {
+          {filterArr.map((e) => {
             return (
               <tr>
                 <td>{e.id}</td>

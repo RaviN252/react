@@ -4,8 +4,8 @@ import { useLocation, useNavigate } from "react-router-dom";
 function Abouts() {
   const nav = useNavigate();
 
-  const location = useLocation();
-  console.log(location.state);
+  // const location = useLocation();
+  // console.log(location.state);
   function back() {
     nav(-1);
   }

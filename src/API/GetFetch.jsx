@@ -14,6 +14,7 @@ function GetFetch() {
       .catch((err) => console.log(err));
   }, []);
 
+  let filterArr = responsedata.filter((e) => e.id <= "10");
   return (
     <>
       <h1>GET FETCH</h1>
@@ -29,7 +30,7 @@ function GetFetch() {
             </tr>
           </thead>
           <tbody>
-            {responsedata.map((e) => {
+            {filterArr.map((e) => {
               return (
                 <tr>
                   <td>{e.id}</td>

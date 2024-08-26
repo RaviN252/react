@@ -11,7 +11,7 @@ class Share3 extends React.Component {
 
   getdata = () => {
     this.setState({
-      username: "Sudha NS", // tits workd only on arrow function
+      username: "Sudha NS", // this workd only on arrow function
     });
   };
 

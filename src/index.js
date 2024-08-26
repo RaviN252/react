@@ -9,6 +9,7 @@ import Contact from "./website/Contact";
 import Gallery from "./website/Gallery";
 import Navigate from "./website/nav";
 
+import Practice from "./Components/1prac";
 //these all for practice concepts
 // import Data from "./Components/object";
 // import Arr from "./Components/Array";
@@ -51,6 +52,13 @@ import UpdateFetch from "./API/UpdateFetch";
 import UpdateAxios from "./API/UpdateAxios";
 import DeleteFetch from "./API/DeleteFetch";
 import DeleteAxios from "./API/DeleteAxios";
+import SForm from "./Form/SForm";
+import FormValidation from "./Form/FormValidation";
+import Gaallery from "./imagegallery/Gallery";
+import HideShow from "./Hide&Show/HideShow";
+import Hoc1 from "./Hoc/Hoc1";
+import Hoc2 from "./Hoc/Hoc2";
+import AssForm from "./Hide&Show/AssForm";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -114,16 +122,26 @@ root.render(
     </BrowserRouter> */}
 
     {/* api concepts */}
-    {/* <GetFetch />
-    <GetAxios /> */}
+    {/* <GetFetch /> */}
+    {/* <GetAxios /> */}
     {/* <PostFetch /> */}
     {/* <PostAxios /> */}
-
-    {/* <Slider /> */}
     {/* <UpdateFetch /> */}
     {/* <UpdateAxios /> */}
-    <DeleteFetch />
+    {/* <DeleteFetch /> */}
     {/* <DeleteAxios /> */}
+
+    {/* <Slider /> */}
+
+    {/* form */}
+    {/* <SForm /> */}
+    {/* <FormValidation /> */}
+    {/* <Gaallery /> */}
+    {/* <HideShow /> */}
+    {/* <Hoc1 /> */}
+    {/* <Hoc2 /> */}
+
+    <AssForm />
   </>
 );
 
