@@ -1,9 +1,9 @@
 import ReactHoc from "../Hoc/ReactHoc";
 
-function Hoc1({ number, handlefunc }) {
+function Hoc1({ number, handlefun }) {
   return (
     <>
-      <button onClick={handlefunc}> Increment</button>
+      <button onClick={handlefun}> Increment</button>
       <h1>{number}</h1>
     </>
   );

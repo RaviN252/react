@@ -11,19 +11,19 @@ import Navigate from "./website/nav";
 
 import Practice from "./Components/1prac";
 //these all for practice concepts
-// import Data from "./Components/object";
-// import Arr from "./Components/Array";
-// import Arrofobj from "./Components/Arrofobj";
+import Data from "./Components/object";
+import Arr from "./Components/Array";
+import Arrofobj from "./Components/Arrofobj";
 import Table from "./Components/map";
 import Filter from "./Components/filter";
-//import First from "./Components/CompFirst";
-//import Second from "./Components/CompSecond";
-// import PromFun from "./Components/PromFun";
-// import PromCls from "./Components/PromCls";
-// import PrsFirst from "./Components/PrsFirst";
-// import PrsSecond from "./Components/PrsSecond";
-// import Prom2fun from "./Components/Prom2fun";
-// import Prom2cls from "./Components/Prom2cls";
+import First from "./Components/CompFirst";
+import Second from "./Components/CompSecond";
+import PromFun from "./Components/PromFun";
+import PromCls from "./Components/PromCls";
+import PrsFirst from "./Components/PrsFirst";
+import PrsSecond from "./Components/PrsSecond";
+import Prom2fun from "./Components/Prom2fun";
+import Prom2cls from "./Components/Prom2cls";
 import Share1 from "./Components/share1";
 import Share2 from "./Components/share2";
 
@@ -59,8 +59,21 @@ import HideShow from "./Hide&Show/HideShow";
 import Hoc1 from "./Hoc/Hoc1";
 import Hoc2 from "./Hoc/Hoc2";
 import AssForm from "./Hide&Show/AssForm";
+import Combine from "./Redux/reducer/CombinerReducer";
+
+// redux
+
+import ReactDom from "react-dom/client";
+import { createStore } from "redux";
+import App from "./App";
+import { Provider } from "react-redux";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+const store = createStore(
+  Combine,
+  +window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
+
 root.render(
   <>
     {/* <App /> */}
@@ -141,7 +154,13 @@ root.render(
     {/* <Hoc1 /> */}
     {/* <Hoc2 /> */}
 
-    <AssForm />
+    {/* <AssForm /> */}
+
+    {/* redux */}
+
+    <Provider store={storage}>
+      <App />
+    </Provider>
   </>
 );
 
